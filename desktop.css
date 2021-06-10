@@ -1,5 +1,13 @@
+header{
+    width: 800px;
+}
 .logo, .nav-list{
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lista {
+    padding-top: 80px;
 }
 .container{
     width: 800px;

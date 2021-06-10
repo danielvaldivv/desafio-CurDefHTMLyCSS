@@ -1,3 +1,8 @@
 .c2, .c3, .c4, .c5 {
     width: 50%;
 }
+.logo, .nav-list{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
