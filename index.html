@@ -6,50 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto del Curso Definitivo HTML y CSS</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
 </head>
 <body>
     <header>
-       
-        <nav>
-            <ul class="header-nav">
-                <li class=".header-nav_item" id="logo">
-                    <figure >
-                    <img src="./LOGO.png" id="imagen">
-                     </figure>
-                </li>
-                <li class="header-nav_item"><a href="">| Home</a></li>
-                <li class="header-nav_item"><a href="">Recetas</a></li>
-                <li class="header-nav_item"><a href="">Productos</a></li>
-                <li class="header-nav_item"><a href="">Consejos</a></li>
-                <li class="header-nav_item"><a href="">Conocenos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <nav class="main-nav" >
-          <section class="caja">
-            <div class="lista">
-                <ul>
-                    <li class="primera-imagen"></li>
-                    <li class="segunda-imagen"></li>
-                    <li class="tercera-imagen"></li>
-                    <li class="cuarta-imagen"></li>
-                    <li class="quinta-imagen"></li>
+        <nav class="header-nav">
+            <div class="logo">
+                <picture>
+                    <img src="./imagenes/LOGO.png" alt="Logo-DALALÉ">
+                </picture>
+            </div>
+            <div class="nav-list">
+                <ul class="lista">
+                    <li class="lista-item"><a  href="">Inicio</a></li>
+                    <li class="lista-item"><a  href="">Productos</a></li>
+                    <li class="lista-item"><a  href="">Recetas</a></li>
+                    <li class="lista-item"><a  href="">Proyección</a></li>
+                    <li class="lista-item"><a class="lista-item" href="">Conócenos</a></li>
                 </ul>
             </div>
-          </section>
-
-          <section class="caja">
-            <div class="fondo">
-                
-            </div>
-          </section>
+            
         </nav>
-       
-        
+    </header>
+
+    <main class="container">
+        <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+        <div class="c5"></div>
+        <div class="c6"></div>
     </main>
     <footer>
-        
     </footer>
 </body>
 </html>
